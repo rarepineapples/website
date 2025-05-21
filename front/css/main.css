@@ -1,0 +1,19 @@
+@import url("parent.css");
+
+#title {
+    padding: 5vw;
+    font-size: 10vw;
+}
+
+#links {
+    padding-left:6vw;
+    font-size: 4vw;
+}
+
+a {
+    padding-bottom:1vw;
+    text-decoration: none!important;
+    display:block;
+    font-style: italic;
+    font-family:"CMU";
+}

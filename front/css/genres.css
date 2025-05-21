@@ -1,0 +1,31 @@
+@import url("parent.css");
+
+#title {
+    padding: 3vw;
+    font-size: 7vw;
+}
+
+#links {
+    padding-left:6vw;
+    font-size: 4vw;
+}
+
+#breadcrumbs {
+    padding:3vw;
+    font-size: 3vw;
+}
+
+#breadcrumbs a {
+    margin-left: 3vw;
+}
+
+
+a {
+    padding-bottom:1vw;
+    text-decoration: none!important;
+    display:block;
+    font-style: italic;
+    transition: 0.3s;
+    font-family:"CMU";
+}
+

@@ -1,0 +1,38 @@
+@import url("parent.css");
+
+#title {
+    padding: 3vw;
+    font-size: 7vw;
+}
+
+#links {
+    padding-left:6vw;
+}
+
+#breadcrumbs {
+    padding:3vw;
+    font-size: 3vw;
+}
+
+#breadcrumbs a {
+    margin-left: 3vw;
+}
+
+
+.review {
+    padding-bottom:2vw;
+    font-family:"CMU";
+}
+
+.review a {
+    display:block;
+    text-decoration: none!important;
+    font-size: min(4vw, 5em);
+}
+
+.review span {
+    font-style: italic;
+    color: #6daf56;
+    font-size: min(3vw, 3em);
+}
+

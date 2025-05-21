@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    color: #2e2e2e;
+    transition: 0.25s;
+    scrollbar-width: none;
+}
+
+body {
+    background-color: #efe9e5;
+}
+
+a {
+    transform-origin: left center;
+    text-decoration: none!important;
+}
+
+a:hover {
+    transform: scale(1.2);
+}
+
+/* scrolling */
+
+-webkit-scrollbar {
+    display: none;
+}
+
+
+#breadcrumbs {
+    float:right;
+    font-family: "CMU";
+    font-style: italic;
+}
+
+#breadcrumbs a {
+    color: #6daf56;
+    display:inline-flex;
+}
+
+/* Calendas */
+
+@font-face {
+    font-family: "Calendas";
+    src: url("../fonts/calendas-roman.ttf");
+    font-style: normal;
+}
+
+/* Computer Modern Serif */
+
+@font-face {
+    font-family: "CMU";
+    src: url("../fonts/cmu-roman.ttf");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "CMU";
+    src: url("../fonts/cmu-italic.ttf");
+    font-style: italic;
+}
