@@ -2,7 +2,7 @@ function render() {
     const queryString = window.location.search;
     
     // gets the index file of the   
-    fetch("/back/book_reviews_scr/" + queryString.substring(1) + "/index.json")
+    fetch("./../../../back/book_reviews_scr/" + queryString.substring(1) + "/index.json")
     .then(result => result.json())
     .then(data => {
         console.log("/back/book_reviews_scr/" + queryString.substring(1) + "/index.json");
